@@ -5,8 +5,6 @@ import stanford.karel.SuperKarel;
 public class KarelTask6 extends SuperKarel{
 	public void run (){
 		firstStep ();
-		cleanRow ();
-		moveBack();
 		findExit();
 		while (leftIsClear()){
 			upStair ();
